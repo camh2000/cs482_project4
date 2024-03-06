@@ -1,0 +1,22 @@
+4.3.3
+javac -cp ntru.jar:bcprov-ext-jdk15on-164.jar:bcprov-jdk15on-164.jar RealWorldNtruEncryptionExample.java
+
+java -cp .:ntru.jar:bcprov-ext-jdk15on-164.jar:bcprov-jdk15on-164.jar RealWorldNtruEncryptionExample
+
+java -cp ntruproj-obf.jar:ntru.jar:bcprov-ext-jdk15on-164.jar:bcprov-jdk15on-164.jar NtruEncryptionOracleFromAlice  harmoncc-public.bin harmoncc-ciphertext.bin
+
+4.3.2
+BREAKING NTRU in practice:
+sage
+load("23-ntru-pubkey1.sage")
+p
+q
+N
+h
+load("23-ntru-example01-lattice.sage")
+print(breakingntru_23)
+res = breakingntru_23.LLL()
+print(res)
+
+4.3.1
+sage stinson-program.sage

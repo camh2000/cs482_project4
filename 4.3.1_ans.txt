@@ -1,0 +1,20 @@
+++++++++++ KEY GENERATION BEGINS ++++++++++
+PRIVATE KEY fx =  3*x^4 - 3*x^3 + 3*x^2 - 3*x + 1
+
+fqx (needs to manually mods 31)  =  5*x^22 + 9*x^21 + 6*x^20 + x^19 + 23*x^18 + 25*x^17 + x^16 + 9*x^15 + 15*x^14 + 9*x^13 + 13*x^12 + 16*x^11 + 7*x^10 + x^9 + 16*x^8 + 27*x^7 + 20*x^6 + 19*x^5 + 23*x^3 + 25*x^2 + 6*x + 4
+ANSWER =
+gx =  3x^9 + 3x^3 - 3x
+
+Public key (before mods 31; needs to manually mods 31 by you) =  3*x^22 + 28*x^21 + 27*x^20 + 17*x^19 + 17*x^18 + 28*x^17 + 19*x^16 + 23*x^15 + 16*x^14 + 13*x^13 + 24*x^12 + 9*x^11 + 3*x^10 + 24*x^9 + 22*x^8 + 29*x^7 + 30*x^6 + 16*x^5 + 18*x^4 + 12*x^3 + 11*x + 17
+ANSWER =
+++++++++++ ENCRYPTION BEGINS ++++++++++
+Plaintext m(x) =  x^13 - x^11 + x^9 - 1
+Random r(x) =  x^18 + x^15 + x^7 - x^3
+
+Ciphertext (needs to manually mods 31) =  22*x^22 + 10*x^21 + x^20 + 3*x^19 + 15*x^18 + 21*x^17 + 19*x^16 + 11*x^15 + 9*x^14 + 11*x^13 + 16*x^12 + 23*x^10 + 15*x^9 + 27*x^8 + 15*x^7 + 16*x^6 + 13*x^5 + 2*x^4 + 15*x^2 + 23*x + 29
+
+++++++++++ DECRYPTION BEGINS ++++++++++
+STEP 1: cleartext ax (needs to manually mods 31) =  3*x^21 + 28*x^19 + 3*x^18 + 3*x^17 + 28*x^16 + x^13 + 28*x^12 + 2*x^11 + x^9 + 28*x^8 + 28*x^6 + 3*x^4 + 3*x^3 + 28*x^2 + 6*x + 30
+ANSWER = 
+STEP 2: needs to manually calculate ax mods p
+ANSWER =
