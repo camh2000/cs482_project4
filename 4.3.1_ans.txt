@@ -19,5 +19,6 @@ ANSWER = (-9)*x^22 + 10*x^21 + x^20 + 3*x^19 + 15*x^18 + (-10)*x^17 + (-12)*x^16
 ++++++++++ DECRYPTION BEGINS ++++++++++
 STEP 1: cleartext ax (needs to manually mods 31) =  3*x^21 + 28*x^19 + 3*x^18 + 3*x^17 + 28*x^16 + x^13 + 28*x^12 + 2*x^11 + x^9 + 28*x^8 + 28*x^6 + 3*x^4 + 3*x^3 + 28*x^2 + 6*x + 30
 ANSWER = 3*x^21 + (-3)*x^19 + 3*x^18 + 3*x^17 + (-3)*x^16 + x^13 + (-3)*x^12 + 2*x^11 + x^9 + (-3)*x^8 + (-3)*x^6 + 3*x^4 + 3*x^3 + (-3)*x^2 + 6*x + (-1)
+
 STEP 2: needs to manually calculate ax mods p
 ANSWER = x^13 - x^11 + x^9 + (-1)
