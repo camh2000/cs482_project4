@@ -52,23 +52,23 @@ print("DAVE")
 print("------------------G(x)------------------")
 
 for gx in gx_array:
-    print("G(x) =", end=" ")
+    print("g(x) =", end=" ")
     count = 22
     gx.reverse()
     for ind in gx:
         if ind > 0:
-            print("+ " + str(abs(ind)) + "*x^" + str(count), end=" ")
+            print("+ " + str(3*abs(ind)) + "*x^" + str(count), end=" ")
         elif ind < 0:
-            print("- " + str(abs(ind)) + "*x^" + str(count), end =" ")
+            print("- " + str(3*abs(ind)) + "*x^" + str(count), end =" ")
         count = count - 1
         
     print("   g(x) * (-1) =", end=" ")
     count = 22
     for ind in gx:
         if ind > 0:
-            print("- " + str(abs(ind)) + "*x^" + str(count), end=" ")
+            print("- " + str(3*abs(ind)) + "*x^" + str(count), end=" ")
         elif ind < 0:
-            print("+ " + str(abs(ind)) + "*x^" + str(count), end =" ")
+            print("+ " + str(3*abs(ind)) + "*x^" + str(count), end =" ")
         count = count - 1
         
     print()
@@ -152,23 +152,23 @@ for fx in fx_array:
 # print("------------------G(x)------------------")
 
 # for gx in gx_array:
-#     print("G(x) =", end=" ")
+#     print("g(x) =", end=" ")
 #     count = 22
 #     gx.reverse()
 #     for ind in gx:
 #         if ind > 0:
-#             print("+ " + str(abs(ind)) + "*x^" + str(count), end=" ")
+#             print("+ " + str(3*abs(ind)) + "*x^" + str(count), end=" ")
 #         elif ind < 0:
-#             print("- " + str(abs(ind)) + "*x^" + str(count), end =" ")
+#             print("- " + str(3*abs(ind)) + "*x^" + str(count), end =" ")
 #         count = count - 1
         
 #     print("   g(x) * (-1) =", end=" ")
 #     count = 22
 #     for ind in gx:
 #         if ind > 0:
-#             print("- " + str(abs(ind)) + "*x^" + str(count), end=" ")
+#             print("- " + str(3*abs(ind)) + "*x^" + str(count), end=" ")
 #         elif ind < 0:
-#             print("+ " + str(abs(ind)) + "*x^" + str(count), end =" ")
+#             print("+ " + str(3*abs(ind)) + "*x^" + str(count), end =" ")
 #         count = count - 1
         
 #     print()
